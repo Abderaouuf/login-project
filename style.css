@@ -16,10 +16,10 @@ body {
 .container {
     display: flex;
     position: absolute;
-    left: 1.18%;
-    right: 1.05%;
-    top: 11.27%;
-    height: 506px;
+    left: 17px;
+    right: 17px;
+    top: 17px;
+    height: 546px;
     width: auto;
     background: #EAFFEE;
     border-radius: 24px;
@@ -33,7 +33,7 @@ div form h2 {
     width: 284px;
     height: 58px;
     right: 29.18px;
-    top: 81px;
+    top: 97px;
     font-size: 44px;
     line-height: 58px;
     display: flex;
@@ -47,7 +47,7 @@ div form h2 {
     position: absolute;
     width: 100px;
     right: 213.18px;
-    top: 18px;
+    top: 34px;
     filter: drop-shadow(0px 0px 2px black);
 
 }
@@ -55,7 +55,7 @@ div form h2 {
 .inputs-form {
     position: absolute;
     right: 63.18px;
-    top: 178px;
+    top: 215px;
     width: fit-content;
 
 }
@@ -151,8 +151,8 @@ a:hover {
     display: block;
     width: 130px;
     height: 38px;
-    left: 857px;
-    top: 398px;
+    right: 262px;
+    top: 440px;
     border: 1px solid #45B09E;
     box-sizing: border-box;
     border-radius: 4px;
@@ -178,7 +178,7 @@ a:hover {
     width: 570px;
     background: #45B09E;
     border-right: 116px solid #EAFFEE;
-    border-top: 506px solid transparent;
+    border-top: 546px solid transparent;
     border-radius: 24px 24px 0px 24px;
 }
 
@@ -221,7 +221,7 @@ a:hover {
     width: 496px;
     height: 45px;
     left: 180px;
-    top: 363px;
+    top: 403px;
     font-weight: 700;
     font-size: 24px;
     line-height: 45px;
@@ -240,7 +240,7 @@ a:hover {
     width: 130px;
     height: 38px;
     left: 38px;
-    top: 441px;
+    top: 474px;
     border: 1px solid #45B09E;
     box-sizing: border-box;
     border-radius: 4px;

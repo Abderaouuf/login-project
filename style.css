@@ -11,9 +11,10 @@ body {
     font-family: 'Cairo', sans-serif;
     font-style: normal;
     font-weight: 400;
+    direction: rtl;
 }
 
-.container {
+.container-login {
     display: flex;
     position: absolute;
     left: 17px;
@@ -21,18 +22,19 @@ body {
     top: 17px;
     height: 546px;
     width: auto;
-    background: #EAFFEE;
     border-radius: 24px;
     transform: matrix(1, 0, 0, 1, 0, 0);
+    background-image: url(Images/backgroundleft.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 
 div form h2 {
     position: absolute;
     width: 284px;
     height: 58px;
-    right: 29.18px;
+    right: 212.18px;
     top: 97px;
     font-size: 44px;
     line-height: 58px;
@@ -54,6 +56,7 @@ div form h2 {
 
 .inputs-form {
     position: absolute;
+    direction: ltr;
     right: 63.18px;
     top: 215px;
     width: fit-content;
@@ -148,11 +151,11 @@ a:hover {
 
 .btn {
     position: absolute;
+    right: 262px;
+    top: 440px;
     display: block;
     width: 130px;
     height: 38px;
-    right: 262px;
-    top: 440px;
     border: 1px solid #45B09E;
     box-sizing: border-box;
     border-radius: 4px;
@@ -173,64 +176,56 @@ a:hover {
     background-position: right;
 }
 
-.rectangle {
-    float: left;
-    width: 570px;
-    background: #45B09E;
-    border-right: 116px solid #EAFFEE;
-    border-top: 546px solid transparent;
-    border-radius: 24px 24px 0px 24px;
-}
-
-.complementary {
-    width: 595px;
-    background: #45B09E;
-    border-right: 136px solid #EAFFEE;
-    border-top: 479px solid transparent;
-    border-radius: 26px;
-    border-bottom-right-radius: 24px;
+.welcome {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: fit-content;
 }
 
 .p1 {
     position: absolute;
     width: 290px;
     height: 67px;
-    left: 141px;
-    top: 25px;
+    left: 246px;
+    top: 17px;
     font-weight: 700;
     font-size: 36px;
     line-height: 67px;
     display: flex;
     align-items: center;
     text-align: center;
-    direction: rtl;
-
     color: #FFFFFF;
 }
 
 .logo {
     position: absolute;
-    width: 315px;
-    height: 315px;
-    left: 76px;
+    height: 330px;
+    left: 100px;
     top: 110px;
+    width: 330px;
+}
+
+
+.create-account {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: fit-content;
 }
 
 .p2 {
     position: absolute;
-    width: 496px;
+    width: 201px;
     height: 45px;
-    left: 180px;
+    left: 203px;
     top: 403px;
     font-weight: 700;
     font-size: 24px;
     line-height: 45px;
-    /* identical to box height */
-
     display: flex;
     align-items: center;
     text-align: right;
-
     color: #FFFFFF;
 }
 
@@ -239,7 +234,7 @@ a:hover {
     display: block;
     width: 130px;
     height: 38px;
-    left: 38px;
+    left: 44px;
     top: 474px;
     border: 1px solid #45B09E;
     box-sizing: border-box;
